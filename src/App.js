@@ -10,7 +10,7 @@ import { BsThermometerHalf } from "react-icons/bs";
 
 function App() {
   const [weatherData, setWeatherData] = useState({});
-  const [city, setCity] = useState('Durban');
+  const [city, setCity] = useState('');
   const [temp, setTemp] = useState('');
   const [flike, setFlike] = useState('');
   const [humidity, setHumidity] = useState('');

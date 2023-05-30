@@ -18,11 +18,11 @@ code {
 }
 
 .App{
-  height: auto;
+  height: 100vh;
   
   color: white;
   background: url("weather.jpg") no-repeat;
-  background-size: 200%;
+  background-size: cover;
   background-position: left;
   animation:move 40s ease-in-out infinite;
 }
@@ -187,6 +187,6 @@ h1{
   .day,.question{
     font-size: 15px;
   }
-
+  
 
 }
