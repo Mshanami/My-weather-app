@@ -1,0 +1,49 @@
+[debug] [2023-06-16T23:11:37.633Z] ----------------------------------------------------------------------
+[debug] [2023-06-16T23:11:37.636Z] Command:       /usr/local/share/nvm/versions/node/v19.9.0/bin/node /home/codespace/nvm/current/bin/firebase init hosting:github
+[debug] [2023-06-16T23:11:37.636Z] CLI Version:   12.4.0
+[debug] [2023-06-16T23:11:37.637Z] Platform:      linux
+[debug] [2023-06-16T23:11:37.637Z] Node Version:  v19.9.0
+[debug] [2023-06-16T23:11:37.637Z] Time:          Fri Jun 16 2023 23:11:37 GMT+0000 (Coordinated Universal Time)
+[debug] [2023-06-16T23:11:37.637Z] Env Overrides: GITHUB_API_URL
+[debug] [2023-06-16T23:11:37.637Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-16T23:11:37.728Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-16T23:11:37.729Z] > authorizing via signed-in user (mabongahbongani420@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /workspaces/My-weather-app
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-16T23:11:37.734Z] Using project from CLI flag: weather2-9fd94
+[debug] [2023-06-16T23:11:37.737Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weather2-9fd94 [none]
+[debug] [2023-06-16T23:11:37.981Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weather2-9fd94 200
+[debug] [2023-06-16T23:11:37.981Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weather2-9fd94 {"projectId":"weather2-9fd94","projectNumber":"1026308562489","displayName":"weather2","name":"projects/weather2-9fd94","resources":{"hostingSite":"weather2-9fd94"},"state":"ACTIVE","etag":"1_4eb609e2-bd48-4235-be06-d985a2064f2b"}
+[info] i  Using project weather2-9fd94 (weather2) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /workspaces/My-weather-app 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=286905829&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
