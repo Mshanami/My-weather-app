@@ -177,15 +177,29 @@ h1{
   
 }
 @media(max-width:650px ) {
+  .topsection{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+  }
   .search input{
     font-size: 15px;
     padding: 2px 5px 2px 5px;
   }
   .search{
-    margin-left: 10%;
+    margin-left: 20px;
+    width: 60%;
+
+
   }
   .day,.question{
     font-size: 15px;
+
+  }
+  .day{
+    padding-top: 10px;
+    margin-left: 20px;
   }
   
 
