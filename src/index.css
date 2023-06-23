@@ -18,13 +18,13 @@ code {
 }
 
 .App{
-  height: 100vh;
+  height: 115vh;
   
   color: white;
   background: url("weather.jpg") no-repeat;
   background-size: cover;
   background-position: left;
-  animation:move 40s ease-in-out infinite;
+  animation:move 10s ease-in-out infinite;
 }
 @keyframes move{
   0%{
@@ -174,6 +174,9 @@ h1{
   margin-right: 5%;
   margin-top: 40px;
 }
+.App{
+  animation: move 30s ease-in-out infinite;
+}
   
 }
 @media(max-width:650px ) {
@@ -186,6 +189,7 @@ h1{
   .search input{
     font-size: 15px;
     padding: 2px 5px 2px 5px;
+    color: #3B444B;
   }
   .search{
     margin-left: 20px;
@@ -194,7 +198,7 @@ h1{
 
   }
   .day,.question{
-    font-size: 15px;
+    font-size: 20px;
 
   }
   .day{
